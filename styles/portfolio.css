@@ -38,6 +38,7 @@ body {
     text-transform: uppercase;
     color: #b3bbc9;
     font-size:16px;
+
 }
 
 
@@ -67,26 +68,34 @@ body {
 }
 
 .col-md-8 {
-  margin-bottom:30px;
+  /*margin-bottom:30px;*/
+}
+
+.row {
+  margin-bottom:20px;
 }
 
 img {
   margin: 6px auto;
   width:100%;
   height:auto;
-  margin-bottom:15px;
+  margin-bottom:35px;
 
 }
 
 .photo2_mann {
 width:50%;
 float:left;
-margin-bottom:15px;
-margin: 6px auto;
+margin-top: 6px ;
 margin-right:500px;
 
 }
 
+.prozess1 {
+width:100%;
+float:left;
+
+}
 
 @media (min-width: 992px) {
   .masthead,
