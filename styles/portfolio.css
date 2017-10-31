@@ -13,6 +13,13 @@ p {
   font-size:17px;
 }
 
+
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:17px;
+}
+
+
 h4 {
   float: right;
   padding:auto;
@@ -103,6 +110,13 @@ float:left;
   margin-top: 6px ;
   margin-right:500px;
 
+}
+
+.constructgif {
+  width:35%;
+  float:left;
+  margin-top: 6px ;
+  margin-right:500px;
 }
 
 
