@@ -2,28 +2,24 @@ html * {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-
-}
 
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:17px;
+  font-size:18px;
 }
 
 
 li {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:17px;
+  font-size:18px;
 }
 
 
 h4 {
   float: right;
   padding:auto;
-  font-size:13px;
+  font-size:14px;
 }
 
 
@@ -41,8 +37,10 @@ body {
 .column-left {
     text-transform: uppercase;
     color: #b3bbc9;
-    font-size:16px;
-
+    letter-spacing: 0.5px;
+    font-size:18px;
+    text-align: right;
+    padding:0 0 0 3rem;
 }
 
 
@@ -51,9 +49,9 @@ body {
   width: 100%;
   height: 100%;
   min-height: 100%;
-
-
 }
+
+
 .site-wrapper-inner {
   display: table-cell;
   padding-top: 50px;
@@ -71,12 +69,9 @@ body {
   box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
 }
 
-.col-md-8 {
-  /*margin-bottom:30px;*/
-}
 
 .row {
-  margin-bottom:20px;
+  margin-bottom:30px;
 }
 
 img {
@@ -124,4 +119,80 @@ float:left;
   .cover-container {
     width: 1150px;
   }
+}
+
+.name {
+  margin:0;
+  font-size:14px;
+  padding:0.5rem 0 0 0;
+  color: #b3bbc9;
+}
+
+h1 {
+  margin:0 !important;
+  line-height:95%;
+  font-weight:600;
+  font-size:84px !important;
+  }
+
+
+
+.title {
+  margin:0 !important;
+  padding:5rem 0 3rem 0;
+}
+
+.bild-einstieg {
+  margin:0 auto;
+  width:100%;
+  padding:0 0 8rem 0;
+}
+
+.nav {
+  padding:0 0 5rem 0;
+  margin:0;
+}
+
+
+
+
+
+/*Links*/
+
+a:link {
+  color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #b3bbc9;
+  letter-spacing: 0.5px;
+  font-size:18px;
+  text-align: right;
+  padding:0 0 0 3rem;
+  margin:0;
+}
+
+a:visited {
+  color: black;
+  text-decoration: underline;
+  color: #b3bbc9;
+  letter-spacing: 0.5px;
+  font-size:18px;
+  text-align: right;
+  padding:0 0 0 3rem;
+  margin:0;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  text-decoration: underline;
+  letter-spacing: 0.5px;
+  font-size:18px;
+  text-align: right;
+  padding:0 0 0 3rem;
+  margin:0;
 }
