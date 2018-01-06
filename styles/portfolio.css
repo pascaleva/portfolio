@@ -33,14 +33,27 @@ body {
   background: linear-gradient(to right, #a3b3dc , #7d9ae5); /* Standard syntax */
 }
 
+h2 {
+  font-weight:600!important;
+  text-transform: uppercase;
+  color: #b3bbc9!important;
+  letter-spacing: 0.5px;
+  font-size:18px!important;
+  text-align: right;
+  padding:0 3rem 0 0;
+  line-height: 25px!important;
+  margin:0!important;
+}
 
-.column-left {
+h3 {
     text-transform: uppercase;
-    color: #b3bbc9;
-    letter-spacing: 0.5px;
-    font-size:18px;
+    color: #b3bbc9!important;
+    letter-spacing: 0.5px!important;
+    font-size:18px!important;
     text-align: right;
-    padding:0 0 0 3rem;
+    padding:0 3rem 0 0!important;
+    line-height: 25px!important;
+    margin:0 0 0 0!important;
 }
 
 
@@ -123,8 +136,8 @@ float:left;
 
 .name {
   margin:0;
-  font-size:14px;
-  padding:0.5rem 0 0 0;
+  font-size:15px;
+  padding:0.6rem 0 0 0;
   color: #b3bbc9;
 }
 
@@ -149,8 +162,8 @@ h1 {
 }
 
 .nav {
-  padding:0 0 5rem 0;
-  margin:0;
+  padding:0 0 5rem 0 !important;
+  margin:0 !important;
 }
 
 
@@ -161,38 +174,38 @@ h1 {
 
 a:link {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
   text-transform: uppercase;
   color: #b3bbc9;
   letter-spacing: 0.5px;
   font-size:18px;
   text-align: right;
-  padding:0 0 0 3rem;
+  padding:0;
   margin:0;
 }
 
 a:visited {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
   color: #b3bbc9;
   letter-spacing: 0.5px;
   font-size:18px;
   text-align: right;
-  padding:0 0 0 3rem;
+  padding:0;
   margin:0;
 }
 
 a:hover {
-  color: black;
+  color: #b3bbc9!important;
   text-decoration: underline;
 }
 
 a:active {
-  color: black;
-  text-decoration: underline;
+  color: #b3bbc9!important;
+  text-decoration: none;
   letter-spacing: 0.5px;
   font-size:18px;
   text-align: right;
-  padding:0 0 0 3rem;
+  padding:0;
   margin:0;
 }
