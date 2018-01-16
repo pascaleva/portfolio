@@ -7,6 +7,8 @@ html * {
 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size:18px;
+  margin:0;
+  padding: 0 0 0 0;
 }
 
 
@@ -26,6 +28,7 @@ h4 {
 html,
 body {
   height: 100%;
+  margin:0;
   background: lightblue; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
@@ -88,11 +91,25 @@ h3 {
 }
 
 img {
-  margin: 6px auto;
+  margin: 0 auto;
   width:100%;
   height:auto;
   margin-bottom:35px;
 
+}
+
+.ul {
+  margin:0!important;
+  padding:0!important;
+}
+
+.endprodukte {
+  padding: 0 0 5rem 0;
+  margin:0;
+}
+
+.examples {
+  padding: 2rem 0 0 0;
 }
 
 .photo2_mann {
@@ -100,7 +117,6 @@ width:50%;
 float:left;
 margin-top: 6px ;
 margin-right:500px;
-
 }
 
 .prozess1 {
@@ -164,16 +180,41 @@ h1 {
 .nav {
   padding:0 0 5rem 0 !important;
   margin:0 !important;
+  width:50rem;
+}
+
+
+.nav a {
+  float: left;
+  color: #b3bbc9;
+  text-transform: uppercase;
+  font-size:18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  padding:0 2.3rem 0 0!important;
+  margin:0;
+  text-align: center;
+  display: block!important;
+
 }
 
 
 
+/* Change the color of links on hover */
+.nav a:hover {
+    text-decoration: underline;
+}
 
+/* Add a color to the active/current link */
+.nav a.active {
+    font-weight:600!important;
+}
 
 /*Links*/
 
 a:link {
-  color: black;
   text-decoration: none;
   text-transform: uppercase;
   color: #b3bbc9;
@@ -185,9 +226,8 @@ a:link {
 }
 
 a:visited {
-  color: black;
-  text-decoration: none;
-  color: #b3bbc9;
+  text-decoration: none!important;
+  color: #b3bbc9!important;
   letter-spacing: 0.5px;
   font-size:18px;
   text-align: right;
@@ -207,5 +247,10 @@ a:active {
   font-size:18px;
   text-align: right;
   padding:0;
+  margin:0;
+}
+
+.decide {
+  width:50%;
   margin:0;
 }
