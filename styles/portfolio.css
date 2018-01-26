@@ -1,0 +1,256 @@
+html * {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:18px;
+  margin:0;
+  padding: 0 0 0 0;
+}
+
+
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:18px;
+}
+
+
+h4 {
+  float: right;
+  padding:auto;
+  font-size:14px;
+}
+
+
+html,
+body {
+  height: 100%;
+  margin:0;
+  background: lightblue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #a3b3dc , #7d9ae5); /* Standard syntax */
+}
+
+h2 {
+  font-weight:600!important;
+  text-transform: uppercase;
+  color: #b3bbc9!important;
+  letter-spacing: 0.5px;
+  font-size:18px!important;
+  text-align: right;
+  padding:0 3rem 0 0;
+  line-height: 25px!important;
+  margin:0!important;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #b3bbc9!important;
+    letter-spacing: 0.5px!important;
+    font-size:18px!important;
+    text-align: right;
+    padding:0 3rem 0 0!important;
+    line-height: 25px!important;
+    margin:0 0 0 0!important;
+}
+
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+
+.site-wrapper-inner {
+  display: table-cell;
+  padding-top: 50px;
+  margin:50px;
+
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:30px;
+  height: 100%;
+  box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
+}
+
+
+.row {
+  margin-bottom:30px;
+}
+
+img {
+  margin: 0 auto;
+  width:100%;
+  height:auto;
+  margin-bottom:35px;
+
+}
+
+.ul {
+  margin:0!important;
+  padding:0!important;
+}
+
+.endprodukte {
+  padding: 0 0 5rem 0;
+  margin:0;
+}
+
+.examples {
+  padding: 2rem 0 0 0;
+}
+
+.photo2_mann {
+width:50%;
+float:left;
+margin-top: 6px ;
+margin-right:500px;
+}
+
+.prozess1 {
+width:100%;
+float:left;
+
+}
+
+.gif1 {
+  width:35%;
+  float:left;
+  margin-top: 6px ;
+  margin-right:500px;
+
+}
+
+.constructgif {
+  width:35%;
+  float:left;
+  margin-top: 6px ;
+  margin-right:500px;
+}
+
+
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 1150px;
+  }
+}
+
+.name {
+  margin:0;
+  font-size:15px;
+  padding:0.6rem 0 0 0;
+  color: #b3bbc9;
+}
+
+h1 {
+  margin:0 !important;
+  line-height:95%;
+  font-weight:600;
+  font-size:84px !important;
+  }
+
+
+
+.title {
+  margin:0 !important;
+  padding:5rem 0 3rem 0;
+}
+
+.bild-einstieg {
+  margin:0 auto;
+  width:100%;
+  padding:0 0 8rem 0;
+}
+
+.nav {
+  padding:0 0 5rem 0 !important;
+  margin:0 !important;
+  width:50rem;
+}
+
+
+.nav a {
+  float: left;
+  color: #b3bbc9;
+  text-transform: uppercase;
+  font-size:18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  padding:0 2.3rem 0 0!important;
+  margin:0;
+  text-align: center;
+  display: block!important;
+
+}
+
+
+
+/* Change the color of links on hover */
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+    font-weight:600!important;
+}
+
+/*Links*/
+
+a:link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #b3bbc9;
+  letter-spacing: 0.5px;
+  font-size:18px;
+  text-align: right;
+  padding:0;
+  margin:0;
+}
+
+a:visited {
+  text-decoration: none!important;
+  color: #b3bbc9!important;
+  letter-spacing: 0.5px;
+  font-size:18px;
+  text-align: right;
+  padding:0;
+  margin:0;
+}
+
+a:hover {
+  color: #b3bbc9!important;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #b3bbc9!important;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-size:18px;
+  text-align: right;
+  padding:0;
+  margin:0;
+}
+
+.decide {
+  width:50%;
+  margin:0;
+}
